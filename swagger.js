@@ -10,6 +10,10 @@ const swaggerDefinition = {
         {
             url: 'http://localhost:3000',
             description: 'Local server'
+        },
+        {
+            url: 'https://yagitech-solar.onrender.com',
+            description: 'Production server'
         }
     ]
 }
