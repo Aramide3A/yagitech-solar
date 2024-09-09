@@ -3,6 +3,7 @@ const { default: mongoose } = require("mongoose");
 const schema =mongoose.Schema({
     name  : String,
     price : Number,
+    power_rating : Number,
     specification : String,
     image: String,
     category : {
