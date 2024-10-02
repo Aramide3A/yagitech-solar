@@ -98,7 +98,7 @@ router.post('/devices', async(req,res)=>{
  */
 
 router.post('/calculate', async(req,res)=>{
-    const appliances = req.body.appliances
+    const appliances = req.body
     if (!appliances || !Array.isArray(appliances)) {
         return res.status(400).json({ error: 'Invalid input: appliances should be an array.' });
     }
